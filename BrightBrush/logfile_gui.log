@@ -1,0 +1,24 @@
+2024-07-14 19:17:11,616 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 451, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 438, in __init__
+    self.graphsDock = GraphsDock(self.mc)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 197, in __init__
+    formLayot.addRow("Sensitivity meter",self.eWaterButton)
+                                         ^^^^^^^^^^^^^^^^^
+AttributeError: 'GraphsDock' object has no attribute 'eWaterButton'. Did you mean: 'eDateButton'?
+2024-07-14 19:21:33,504 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 451, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 438, in __init__
+    self.graphsDock = GraphsDock(self.mc)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guyko\OneDrive\Desktop\IOT_SMART_HOME-main\SmartTootbrush-main\SmartTootbrush-main\gui.py", line 197, in __init__
+    formLayot.addRow("Sensitivity meter",self.eWaterButton)
+                                         ^^^^^^^^^^^^^^^^^
+AttributeError: 'GraphsDock' object has no attribute 'eWaterButton'. Did you mean: 'eDateButton'?
